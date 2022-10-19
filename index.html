@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tv remote control</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <video src=""></video>
+    <button>On/Off</button>
+
+
+
+    <script>
+        let isPoweredOn = false;
+        let powerBtn = document.querySelector('button');
+        let video = document.querySelector('video');
+
+        console.log(powerBtn);
+        console.log(video);
+
+        powerBtn.addEventListener('click', powerOn);
+
+        function powerOn() {
+            video.setAttribute('src', 'assets/movies/Jellyfish - 110877.mp4');
+            video.play();
+            
+        }
+        
+
+
+    </script>
+</body>
+</html>
