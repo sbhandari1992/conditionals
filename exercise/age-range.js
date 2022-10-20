@@ -1,20 +1,6 @@
-// greeting
-time = 22;
-
-
-
-if (time >= 6 & time < 12){
-    console.log('Good morning');
-}
-else if (time >= 12 & time < 18){
-    console.log('Good afternoon');
-}
-else {
-    console.log('Good evening');
-}
-
 // agerange
-let age = 1;
+
+let age = 70;
 let ageCategories;
 
 if (age >=1 & age <= 5) {
@@ -33,8 +19,6 @@ else if (age >=40 & age <= 80 ) {
     ageCategories = 'Siniors';
 }
 else {
-    let ageCategories = 'Expired'
+    ageCategories = 'Expired'
 }
 console.log(ageCategories);
-
-
